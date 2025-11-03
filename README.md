@@ -1,17 +1,19 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
-### Date created
-Include the date you created this project and README file.
+## Project: Bikeshare Data Manager for American Cities
 
-### Project Title
-Replace the Project Title
+### Date created
+Project and README.md created on **03/11/2025**
 
 ### Description
-Describe what your project is about and what it does
+Utilises an interactive Python file for the user to:
+- Filter by city, month, and day of the week
+- View modal data for start time, end time, duration, user gender
+- View the raw data in acessible 5-line chunks at user request
 
 ### Files used
-Include the files used
+- bikeshare.py
+- README.md
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Inspired by this [**Udacity GitHub repo**](https://github.com/udacity/pdsnd_github)
