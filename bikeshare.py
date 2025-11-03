@@ -17,7 +17,7 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
 
-    # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    # get user input for city (chicago, new york city, washington).
     while True: # loop to handle errors: asks the user to enter one of the available cities (case insensitive)
         try:
             city = input('What city would you like data for?\n').lower()
@@ -171,13 +171,13 @@ def user_stats(df):
     print('-'*40)
 
 
-def present_raw(df):
+def present_raw(df): # function to present 5 lines of raw data from the loaded dataset at a time at user request
     """Asks the user if they would like to see the raw dataset and returns 5 lines at a time"""
     
     counter = 299993;
 
     # ask user whether they want detailed statistics
-    while True: # loop to handle errors: asks the user to enter one of the available cities (case insensitive)
+    while True: # loop to handle errors: asks the user to enter yes or no (case insensitive)
         try:
             user_in = input('Would you like to see 5 lines of raw data? (Type yes or no)\n').lower()
         except:
